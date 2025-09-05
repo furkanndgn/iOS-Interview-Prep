@@ -1,5 +1,5 @@
 import Foundation
-
+/// Time Complexity: O(n)
 func isPalindrome(_ s: String) -> Bool {
     let filtered = s.lowercased().filter { $0.isLetter || $0.isNumber }
     let chars = Array(filtered)
