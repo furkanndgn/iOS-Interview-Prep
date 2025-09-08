@@ -32,7 +32,6 @@ func buildList(_ arr: [Int]) -> ListNode? {
     return head
 }
 
-// Helper: linked list -> array
 func listToArray(_ head: ListNode?) -> [Int] {
     var res = [Int]()
     var current = head
@@ -43,8 +42,6 @@ func listToArray(_ head: ListNode?) -> [Int] {
     return res
 }
 
-// Example
 let head = buildList([1,2,3,4,5])
 let reversed = reverseList(head)
-print(listToArray(reversed)) // [5,4,3,2,1]
-
+print(listToArray(reversed))

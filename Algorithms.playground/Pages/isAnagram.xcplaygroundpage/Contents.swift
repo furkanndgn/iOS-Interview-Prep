@@ -23,7 +23,6 @@ func isAnagram(_ s: String, _ t: String) -> Bool {
     return dict.isEmpty
 }
 
-
 print(isAnagram("anagram", "nagaram"))
 print(isAnagram("rat", "car"))
 print(isAnagram("a", "a"))
